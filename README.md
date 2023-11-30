@@ -12,3 +12,10 @@ Foi pensando nisso que estou desenvolvendo uma plataforma mais intuitiva e simpl
 
 ## Observações
 No momento estou apenas desenvolvendo as telas front-ends e finalizando-as começarei então a desenvolver a lógica do back-end
+
+
+### Tela inicial
+<div style="display:flex; gap:40px">
+    <img src="./imageRead/home.png"   height="200"/>
+    <img src="./imageRead/home-mobile.png" width="" height="300"/>
+</div>
