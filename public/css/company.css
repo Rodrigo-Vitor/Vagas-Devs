@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.hire {
+    background-color: black;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hire-button {
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 50px 0;
+}
+.hire-button:hover {
+    background-color: #3da241;
+}
+.hire span {
+    display: block;
+}
+
+.for-company {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.how-work h2 {
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .for-company {
+        flex-direction: column;
+        align-items: center;
+    }
+}
